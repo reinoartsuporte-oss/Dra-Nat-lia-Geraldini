@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Natália Geraldini | Implantes e Reabilitação Oral em Goiânia</title>
+    <meta name="description" content="Especialista em Implante e Reabilitação Oral em Goiânia - St. Bueno. Transforme seu sorriso com segurança e excelência.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero-section">
+        <div class="container hero-container">
+            <!-- No celular, a imagem vem primeiro e um pouco menor -->
+            <div class="hero-image-wrapper">
+                <img src="https://i.imgur.com/tRhtsep.png" alt="Dra. Natália Geraldini" class="hero-img">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-shield-heart"></i>
+                    <span>Referência em Implantes & Facetas</span>
+                </div>
+            </div>
+            
+            <div class="hero-content">
+                <div class="hero-tag">
+                    <i class="fa-solid fa-location-dot">></i> Ed. Walk Bueno Business • Goiânia - GO
+                </div>
+                <h1>Eu sou Dra. Natália Geraldini, Especialista em Implante e Reabilitação Oral em Goiânia</h1>
+                <p class="hero-subtitle">Transformo sorrisos e devolvo sua autoestima com tratamentos de alta precisão, tecnologia avançada e um atendimento humanizado, exclusivo para você.</p>
+                
+                <div class="hero-cta-box">
+                    <a href="https://api.whatsapp.com/send/?phone=5562981245156" target="_blank" class="btn-primary pulse-effect">
+                        <i class="fa-brands fa-whatsapp"></i> Agendar primeira consulta no WhatsApp
+                    </a>
+                    <span class="micro-text">
+                        <i class="fa-solid fa-bolt"></i> Resposta rápida • Sem compromisso
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BLOCO QUEM SOU EU -->
+    <section class="about-section" id="sobre">
+        <div class="container about-grid">
+            <div class="about-img-container">
+                <img src="https://i.imgur.com/XrLZZnK.png" alt="Dra. Natália Geraldini no consultório" class="about-main-img">
+                <div class="experience-badge">
+                    <strong>Excelência</strong>
+                    <span>em Reabilitação Oral</span>
+                </div>
+            </div>
+            <div class="about-text-content">
+                <h2>Muito prazer, sou a Dra. Natália</h2>
+                <p>Minha missão na odontologia vai muito além dos dentes: eu cuido de pessoas, da sua confiança e da liberdade de sorrir sem receios. Especialista em Implantes e Reabilitação Oral, dedico minha carreira a unir técnica impecável, estética natural e conforto absoluto em cada procedimento.</p>
+                
+                <ul class="about-bullets">
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span><strong>Atendimento 100% humanizado:</strong> Você é ouvido(a) e acolhido(a) desde o primeiro segundo.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span><strong>Foco em estética natural:</strong> Facetas e lentes planejadas para harmonizar perfeitamente com seu rosto.</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span><strong>Segurança em implantes:</strong> Devolva a firmeza da sua mastigação com técnicas modernas e previsíveis.</span>
+                    </li>
+                </ul>
+
+                <div class="procedures-tags">
+                    <span class="proc-tag">Lentes de Porcelana</span>
+                    <span class="proc-tag">Facetas em Resina</span>
+                    <span class="proc-tag">Implantes Dentários</span>
+                    <span class="proc-tag">Clareamento Dental</span>
+                    <span class="proc-tag">Clínico Geral</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO RESULTADOS REAIS (GALERIA) -->
+    <section class="results-section" id="resultados">
+        <div class="container">
+            <div class="section-header">
+                <h2>Resultados Reais</h2>
+                <p>Transformações que contam histórias de resgate da autoestima e sorrisos renovados.</p>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- As imagens fornecidas -->
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/XRkKjlm.png" alt="Resultado de transformação dental 1" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/dwTkKjc.png" alt="Resultado de transformação dental 2" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/T5TTZ5x.png" alt="Resultado de transformação dental 3" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/UPgQ0gA.png" alt="Resultado de transformação dental 4" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/XFFviFM.png" alt="Resultado de transformação dental 5" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/65P2kKp.png" alt="Resultado de transformação dental 6" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/s4u4CPV.png" alt="Resultado de transformação dental 7" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <div class="gallery-item" onclick="openLightbox(this)">
+                    <img src="https://i.imgur.com/IYXo83a.png" alt="Resultado de transformação dental 8" loading="lazy">
+                    <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+                </div>
+                <!-- Espaço reservado/pronto para adicionar mais links futuramente -->
+            </div>
+
+            <p class="disclaimer-text">* Resultados podem variar de pessoa para pessoa. Cada planejamento é único e personalizado após avaliação clínica.</p>
+        </div>
+    </section>
+
+    <!-- BLOCO POR QUE CONFIAR EM MIM -->
+    <section class="why-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que confiar em mim?</h2>
+                <p>Compromisso inegociável com a sua saúde bucal, estética e tranquilidade.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h3>Avaliação Honesta</h3>
+                    <p>Indico apenas o que você realmente precisa, com total transparência em relação aos caminhos do tratamento.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                    <h3>Atendimento Comigo</h3>
+                    <p>Do planejamento ao procedimento final, você é acompanhado diretamente por mim, garantindo segurança e padrão de excelência.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Clareza em Cada Etapa</h3>
+                    <p>Explico cada detalhe do processo de forma simples, para que você tome decisões seguras sobre o seu sorriso.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="card-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Materiais Premium</h3>
+                    <p>Trabalho exclusivamente com porcelanas e resinas de altíssima qualidade estética e durabilidade comprovada.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA INTERMEDIÁRIO -->
+    <section class="cta-banner-section">
+        <div class="container cta-banner-box">
+            <h2>Pronto(a) para transformar o seu sorriso com segurança?</h2>
+            <p>Dê o primeiro passo agora mesmo. Tire suas dúvidas diretamente comigo e agende seu horário.</p>
+            <a href="https://api.whatsapp.com/send/?phone=5562981245156" target="_blank" class="btn-primary">
+                <i class="fa-brands fa-whatsapp"></i> Falar com a Dra. Natália no WhatsApp
+            </a>
+            <span class="micro-text light-text">Atendimento ágil e humanizado</span>
+        </div>
+    </section>
+
+    <!-- BLOCO COMO FUNCIONA A PRIMEIRA CONSULTA -->
+    <section class="steps-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Como funciona a primeira consulta</h2>
+                <p>Um processo simples, transparente e feito para respeitar o seu tempo.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <h3>Toque no WhatsApp</h3>
+                    <p>Clique em qualquer botão da página para abrir nossa conversa oficial com facilidade e rapidez.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <h3>Agendamento Fácil</h3>
+                    <p>Nossa equipe encontra o melhor dia e horário para a sua visita em nosso consultório no Setor Bueno.</p>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <h3>Avaliação Detalhada</h3>
+                    <p>Analisamos seu caso detalhadamente, ouvimos seus desejos e desenhamos o plano ideal para o seu sorriso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOCO MAIS PROVAS (BASTIDORES E EXPERT) -->
+    <section class="behind-scenes-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por dentro do consultório</h2>
+                <p>Estrutura moderna, tecnologia de ponta e um ambiente acolhedor esperando por você.</p>
+            </div>
+
+            <div class="scenes-grid">
+                <div class="scene-item">
+                    <img src="https://i.imgur.com/o63HaKc.jpeg" alt="Bastidores do consultório 1" loading="lazy">
+                    <div class="scene-caption">Atendimento personalizado e humanizado</div>
+                </div>
+                <div class="scene-item">
+                    <img src="https://i.imgur.com/pcsNs58.jpeg" alt="Bastidores do consultório 2" loading="lazy">
+                    <div class="scene-caption">Tecnologia avançada em reabilitação</div>
+                </div>
+                <div class="scene-item">
+                    <img src="https://i.imgur.com/Msuj9a6.jpeg" alt="Bastidores do consultório 3" loading="lazy">
+                    <div class="scene-caption">Precisão e cuidado em cada detalhe</div>
+                </div>
+                <div class="scene-item">
+                    <img src="https://i.imgur.com/OJXKFWU.jpeg" alt="Bastidores do consultório 4" loading="lazy">
+                    <div class="scene-caption">Ambiente confortável no Setor Bueno</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta-section">
+        <div class="container final-cta-box">
+            <h2>Seu novo sorriso começa aqui</h2>
+            <p>Não espere mais para recuperar a confiança ao sorrir, falar e mastigar. Agende sua primeira consulta hoje mesmo!</p>
+            <a href="https://api.whatsapp.com/send/?phone=5562981245156" target="_blank" class="btn-primary pulse-effect">
+                <i class="fa-brands fa-whatsapp"></i> Agendar primeira consulta no WhatsApp
+            </a>
+            <span class="micro-text light-text">Ed. Walk Bueno Business • Goiânia - GO</span>
+        </div>
+    </section>
+
+    <!-- RODAPÉ SIMPLES -->
+    <footer class="footer-section">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>Dra. Natália Geraldini</h3>
+                <p>Especialista em Implante e Reabilitação Oral</p>
+                <p class="address-text"><i class="fa-solid fa-location-dot"></i> Edifício Walk Bueno Business - R. T-55, 930 - Sl 1505 - St. Bueno, Goiânia - GO, 74215-170</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://api.whatsapp.com/send/?phone=5562981245156" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Dra. Natália Geraldini. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightboxModal" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightboxImg" src="" alt="Ampliação do resultado">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
